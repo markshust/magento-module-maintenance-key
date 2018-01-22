@@ -1,0 +1,19 @@
+{
+  "name": "markoshust/magento-module-maintenance-key",
+  "description": "Magento module to enable maintenance mode viewing by parameter key.",
+  "require": {
+    "php": "^7.0",
+    "magento/framework": "101.0.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MarkShust\\MaintenanceKey\\": ""
+    }
+  }
+}
